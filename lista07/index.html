@@ -1,61 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
     <form>
-    <h1>Cadastro de clientes</h1>
-    <h2 style="color: red;"><b>Todos os campos são de preenchimento automático</b></h2>
+        <h1>Cadastro de clientes</h1>
+        <p style="color: red;"><b>Todos os campos são de preenchimento automático</b></p>
 
-    <fieldset>
-    <legend>Dados pessoais</legend>
-    <label for="txtNome">Nome:</label>
-    <input type="text" id="txtNome" placeholder="Nome completo" required>
-    <br><br>
-    <label for="txtDataNascimento">Data de nascimento:</label>
-    <input type="date" id="txtDataNascimento" required>
-    <br><br>
-    <label for="txtSexo">Sexo:</label>
-    <br>
-    <input type="radio" id="masc" name="Sexo" required>
-    <label for="masc">Masculino</label>
-    <input type="radio" id="fem" name="Sexo" required>
-    <label for="fem">Feminino</label>
-    </fieldset>
-
-    <br><br>
-
-
-    <fieldset>
-        <legend>Informações de contato</legend>
-        <label for="txtEmail">Email</label>
-        <input type="email" id="txtEmail" required>
-        <br><br>
-        <label for="telefone">Telefone celular:</label>
-        <input type="text" id="telefone" name="telefone" maxlength="9" placeholder="Apenas números (máx:9)" required>
-        <br><br>
-        <label for="txtSite">Website pessoal/profissional:</label>
-        <input id="txtSite" type="site" required >
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="txtNome">Nome:</label>
+            <input type="text" id="txtNome" placeholder="Nome completo" required>
+            <br><br>
+            <label for="txtDataNascimento">Data de nascimento:</label>
+            <input type="date" id="txtDataNascimento" required>
+            <br><br>
+            <label for="txtSexo">Sexo:</label>
+            <br>
+            <input type="radio" id="masc" name="Sexo" required>
+            <label for="masc">Masculino</label>
+            <input type="radio" id="fem" name="Sexo" required>
+            <label for="fem">Feminino</label>
         </fieldset>
-    
-    <br><br>
+
+        <br><br>
+
+
+        <fieldset>
+            <legend>Informações de contato</legend>
+            <label for="txtEmail">Email</label>
+            <input type="email" id="txtEmail" required>
+            <br><br>
+            <label for="telefone">Telefone celular:</label>
+            <input type="text" id="telefone" name="telefone" maxlength="9" placeholder="Apenas números (máx:9)"
+                required>
+            <br><br>
+            <label for="txtSite">Website pessoal/profissional:</label>
+            <input id="txtSite" type="site" required>
+        </fieldset>
+
+        <br><br>
 
         <fieldset>
             <legend>Localização</legend>
             <label for="txtEndereco">Endereço:</label>
             <input type="text" id="txtEndereco" required>
             <br><br>
-
             <label for="numero">Número:</label>
-        <input type="text" id="numero" maxlength="9" placeholder="Valor entre 1 e 9999" min="1" max="9999" required>
-            </fieldset>
+            <input type="text" id="numero" maxlength="9" placeholder="Valor entre 1 e 9999" min="1" max="9999" required>
+            <br><br>
+            <label for="txtCidade">Cidade:</label>
+            <input type="text" id="txtCidade" required>
+            <br><br>
+            <label for="estados">Estado:</label>
+            <select name="estados" id="estados" required>
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </fieldset>
 
-<br><br>
+        <br><br>
 
-            <input type="submit" value="Cadastrar">
-            <input type="reset" value="Limpar">
-        </form>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </form>
 </body>
+
 </html>

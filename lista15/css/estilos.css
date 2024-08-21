@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.caixa {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 100px;
+    left: -180px;
+    transition: all 0.5s;
+    width: 200px;
+}
+
+li {
+    padding: 10px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    border-bottom: 25px;
+    display: block;
+    border-radius: 4px;
+    border-right: 8px solid black;
+    text-align: right;
+    transition: all 05s;
+}
+
+.li1 {
+    background-color: lightblue;
+}
+
+.li2 {
+    background-color: rgb(243, 243, 113);
+}
+
+.li3 {
+    background-color: rgb(212, 150, 248);
+}
+
+.li4 {
+    background-color: lightgreen;
+}
+
+.li5 {
+    background-color: lightcoral;
+}
+
+li:hover {
+    transform: translateX(80px);
+}

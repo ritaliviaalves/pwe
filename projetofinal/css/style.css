@@ -144,10 +144,14 @@ main section h3 {
 }
 
 .quemsomos2 {
-  text-align: right;
+  text-align: center;
 }
 .quemsomos1 {
   text-align: left;
+}
+
+.quemsomos3 {
+  text-align: right;
 }
 
 .pontoForte {

@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baskervville SC", serif;
+  color: #573c27;
+  background-color: #f9e9e9;
+}
+
+header {
+  background-color: #f9e9e9;
+  font-size: 22px;
+}
+
+ul a:hover {
+  color: #5b2929;
+  border-bottom: 5px solid #b46c6c;
+  letter-spacing: 3px;
+}
+
+.sobre {
+  border-bottom: 5px solid #b46c6c;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9e9e9;
+}
+nav img {
+  height: 70px;
+  width: 70px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 15px;
+  padding: 0;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: #bc6c6c;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header div {
+  background-color: #f9e9e9;
+  text-align: center;
+}
+
+main section {
+  padding: 50px;
+}
+
+main section h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+main section h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+main section p {
+  margin: 20px 0px;
+  /* para ficar alinhado  */
+}
+
+.section1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.destaque {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+main section button {
+  padding: 10px 20px;
+  /* para arredondar os cantos  */
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.button2 {
+  background-color: #5b2929;
+  color: #f1ced4;
+  text-align: center;
+}
+.button1 {
+  background-color: #f1ced4;
+  color: #bc6c6c;
+}
+
+main section .button1:hover {
+  background-color: #5b2929;
+  cursor: pointer;
+}
+
+main section .button2:hover {
+  background-color: #d49c9c;
+  cursor: pointer;
+}
+
+
+main section:nth-of-type(odd) {
+  background-color: #bc6c6c;
+  color: #f9e9e9;
+}
+
+main section:nth-of-type(even) {
+  background-color: #f1ced4;
+  color: #bc6c6c;
+}
+
+main section h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container > div {
+  width: 100%;
+  padding: 20px;
+}
+
+.quemsomos p {
+  font-size: 15px;
+}
+
+.quemsomos2 {
+  text-align: right;
+}
+.quemsomos1 {
+  text-align: left;
+}
+
+.pontoForte {
+  text-align: center;
+}
+
+.pontoForte h2 {
+  color: #5b2929;
+}
+
+footer p {
+  background-color:#5b2929;
+  color: white;
+  padding: 35px;
+  text-align: center;
+}
+
+.porQue p {
+  font-size: 20px;
+  text-align: center;
+  text-align: justify;
+} 
+
+.produtos {
+  text-align: center;
+}
+
+.produtos img {
+  border-radius: 10px;
+}
+
+.diferencial {
+  text-align: center;
+}
+ .pEspecial {
+  font-weight: bold;
+ }
+.color1 {
+  color: #bc6c6c;
+}
+.color2 {
+  color: #d49c9c;
+}
+.color3 {
+  color: #5b2929;
+}
+.color4 {
+  color: #b46c6c;
+}
+.color5 {
+  color: #d4a4ac;
+}
